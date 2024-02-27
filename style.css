@@ -6,16 +6,58 @@
 
 .cabecalho__sessao__imagem{
     padding: 40px 0px 0px 40px;
-    gap: 40px;
+    gap: 20px;
 }
 
 .apresentacao{
     display: flex;
-    padding: 5% 0% 0%  ;
+    padding: 5% 5% 0%  ;
     
 }
 
 .apresentacao__conteudo__criptografia{
     padding: 0% 0% 0% 100%;
-    gap: 40%;
+ 
+}
+
+.apresentacao__conteudo_criptografia_input{
+   font-family:'Inter', sans-serif ;
+   font-size: 32px;
+   border: 0;
+
+}
+::placeholder {
+    color: #0A3871 ;
+    
+  }
+
+.rodape__botoes{
+    margin: auto;
+    padding: 8%;
+    justify-content: center;
+    width: 680px;
+    height: 67px;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.rodape__botoes_aviso{
+
+}
+
+.rodape__botoes__botaoCriptografar{
+    width: 328px;
+    height: 67px;
+    background-color: #0A3871;
+    color: #D8DFE8;
+    border-radius: 24px;
+   
+}
+.rodape__botoes__botaoDescriptografar{
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+
 }
