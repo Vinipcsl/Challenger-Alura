@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
+ body{
+    background-color:#D8DFE8;
+    height: 100vh;
+    box-sizing: border-box;
+ }
 
 .cabecalho__sessao__imagem{
     padding: 40px 0px 0px 40px;
@@ -11,30 +15,58 @@
 
 .apresentacao{
     display: flex;
-    padding: 5% 5% 0%  ;
-    
+    justify-content: space-between;
+    margin: 2%;
 }
 
-.apresentacao__conteudo__criptografia{
-    padding: 0% 0% 0% 100%;
- 
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .apresentacao__conteudo_criptografia_input{
    font-family:'Inter', sans-serif ;
    font-size: 32px;
    border: 0;
-
+   width: 680px;
+   background-color:#D8DFE8;
 }
 ::placeholder {
     color: #0A3871 ;
     
   }
 
-.meio_imagem{
-   margin-left: 800px ;
-    justify-content: end;
+.meio{
+    display: flex;
+    width: 400px;
+    height: 944px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     
+}
+
+.meio_meio_texto{
+
+color: var(--Gray-gray-400, #495057);
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+
+.meio_imagem{
+    
+    
+}
+
+.apresentacao__conteudo_botoes{
+    display: flex;
+    justify-content: space-between;
+    
+
 }
 
 .rodape__botoes{
@@ -47,12 +79,12 @@
     vertical-align: middle;
 }
 
-.rodape__botoes_aviso{
+.botoes_aviso{
     margin-right: 405px;
     padding: auto;
 }
 
-.rodape__botoes__botaoCriptografar{
+.botoes__botaoCriptografar{
     width: 328px;
     height: 67px;
     background-color: #0A3871;
@@ -60,7 +92,7 @@
     border-radius: 24px;
    
 }
-.rodape__botoes__botaoDescriptografar{
+.botoes__botaoDescriptografar{
     border-radius: 24px;
     width: 328px;
     height: 67px;
