@@ -108,20 +108,20 @@ color:#4864e0;
 .botoes__botaoCriptografar{
     width: 328px;
     height: 67px;
-    background-color: #0A3871;
-    color: #D8DFE8;
+    background-image:linear-gradient(rgb(9, 87, 255) , rgb(248, 156, 236));
+    color: #000000;
     border-radius: 24px;
     margin-left: 240px;
-    box-shadow: #D8DFE8;
+    box-shadow: 2px 2px;
    
 }
 .botoes__botaoDescriptografar{
     border-radius: 24px;
     width: 328px;
     height: 67px;
-    color: #0A3871;
-    background-color:#D8DFE8;
-    box-shadow: 5px 5px;
+    color: #000000;
+    background-image:linear-gradient(rgb(9, 136, 255) , rgb(255, 216, 223));
+    box-shadow: 2px 2px;
 
 }
 
