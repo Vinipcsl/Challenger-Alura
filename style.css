@@ -3,20 +3,21 @@
     padding: 0;
 }
  body{
-    background-color:#D8DFE8;
+    background-image: url(./Galeria/Anime-Above-Clouds-Scenery-AI-Generated-4K-Wallpaper-jpg.webp);
     height: 100vh;
     box-sizing: border-box;
  }
 
-.cabecalho__sessao__imagem{
+.cabecalho_sessao_imagem{
     padding: 40px 0px 0px 40px;
     gap: 20px;
 }
 
 .apresentacao{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     margin: 2%;
+    box-sizing: border-box;
 }
 
 .apresentacao__conteudo{
@@ -30,42 +31,61 @@
    font-size: 32px;
    border: 0;
    width: 680px;
-   background-color:#D8DFE8;
+   height: 120px;
+   background-color: #ffffff00;
+   color:#ffffff;
+   margin-left: 240px;
+   max-width: 680px;
+   min-width: 680px;
+   
 }
 ::placeholder {
-    color: #0A3871 ;
+    color: #ffffff ;
     
   }
 
 .meio{
+    
     display: flex;
     width: 400px;
     height: 944px;
     flex-shrink: 0;
     border-radius: 32px;
-    background: var(--White, #FFF);
+    background-color:  #f8f8f8a1;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    
+    flex-direction: column;
 }
 
 .meio_meio_texto{
-
-color: var(--Gray-gray-400, #495057);
+width: 336px;
+margin: 32px;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; 
+border: 0;
+max-width: 336px;
+max-height: 781px;
+color:#4864e0;
+}
+
+.meio_meio_texto::-moz-focus-inner{
+    resize: none;
 }
 
 .meio_imagem{
-    
+    width: 336px;
+    height: 300px;
+    flex-shrink: 0;
+    align-items: center;
+    margin-top: 283px;  
+    margin-left: 32px;    
     
 }
 
 .apresentacao__conteudo_botoes{
     display: flex;
     justify-content: space-between;
-    
 
 }
 
@@ -81,7 +101,8 @@ line-height: 150%;
 
 .botoes_aviso{
     margin-right: 405px;
-    padding: auto;
+    padding-top:635px ;
+    margin-left: 240px;
 }
 
 .botoes__botaoCriptografar{
@@ -90,6 +111,8 @@ line-height: 150%;
     background-color: #0A3871;
     color: #D8DFE8;
     border-radius: 24px;
+    margin-left: 240px;
+    box-shadow: #D8DFE8;
    
 }
 .botoes__botaoDescriptografar{
@@ -97,6 +120,11 @@ line-height: 150%;
     width: 328px;
     height: 67px;
     color: #0A3871;
-    background-color: #D8DFE8;
+    background-color:#D8DFE8;
+    box-shadow: 5px 5px;
 
+}
+
+.rodaPe{
+    background-color: rgb(255, 255, 255)
 }

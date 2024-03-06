@@ -5,29 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Criptografia</title>
+    <script src="./controller.js"></script>
 </head>
 <body>
     <header class="cabecalho">
-            <img class="cabecalho__sessao__imagem" src="./Galeria/Frame 6.png" alt="Logo Alura">
+            <img class="cabecalho_sessao_imagem" src="./Galeria/Frame 6.png" alt="Logo Alura">
     </header>
+    
     <main class="apresentacao">
         <section class="apresentacao__conteudo">                    
-                <textarea class="apresentacao__conteudo_criptografia_input" id="textoInput" placeholder="Digite seu texto"></textarea>  
-                <p class="botoes_aviso">Apenas letras minúsculas e sem acento.</p>
+                
+            <textarea class="apresentacao__conteudo_criptografia_input" id="textoInput" placeholder="Digite seu texto"></textarea>  
+            <p class="botoes_aviso">Apenas letras minúsculas e sem acento.</p>
 
             <div class="apresentacao__conteudo_botoes">
-
-                <button id="" class="botoes__botaoCriptografar">Criptografar</button>
-                <button id="" class="botoes__botaoDescriptografar">Descriptografar</button>
+                <button onclick="criptografar()" class="botoes__botaoCriptografar">Criptografar</button>
+                <button  onclick="descriptografar()" class="botoes__botaoDescriptografar">Descriptografar</button>
             </div>
-                
+
         </section>
 
         <aside class="meio">
-            <label type="text" class="meio_meio_texto" id="labelResposta">
-           
-                <img class="meio_imagem" src="./Galeria/High quality products 1 1.png" alt="">
-
+            <label class="meio_meio_texto" id="labelResposta"></label>
+            <img id="imagemTemporaria" class="meio_imagem" src="./Galeria/High quality products 1 1.png" alt="">
         </aside>
     </main> 
 
