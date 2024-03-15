@@ -130,7 +130,7 @@ color:#a6a0fd;
 
 
 .botaoCopiar{
-    background-image:linear-gradient(rgb(9, 165, 255) , rgb(255, 240, 240));
+    background-image:linear-gradient(rgb(85, 188, 248) , rgb(255, 255, 255));
     color: #000000;
     border-radius: 24px;
     width: 328px;
@@ -139,3 +139,15 @@ color:#a6a0fd;
     margin-top: 120px;
 }
 
+.footer{
+    display: flex;
+    color: #000000;
+    justify-content: center;
+    text-align:center;
+    vertical-align: middle;
+    
+}
+
+.footer__imagem{
+    width: 3%;
+}

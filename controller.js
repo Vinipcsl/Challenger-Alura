@@ -55,8 +55,6 @@ function descriptografarLetra(textoCriptografado) {
    return textoFinal;
 }
 
-
-
 function criptografar() {
    const inputTexto = document.getElementById("textoInput");
    const textoCriptografado = criptografarLetra(inputTexto);
@@ -92,9 +90,14 @@ function descriptografar() {
 
 function copiarTexto(){
 
-   const labelTexto = document.getElementById("labelResposta").value;
+   const labelTexto = document.getElementById("labelResposta").innerHTML;
 
-   navigator.clipboard.readText().then((clipText) => (labelTexto.innerText = clipText));
+   navigator.clipboard.writeText (labelTexto).then(()=> { console.log("texto copiado")})
+   .catch(erro =>{
+      console.log("Deu erro!", erro);
+   })
 
-   
+   alert("Texto copiado!");
+  
+   
 }
